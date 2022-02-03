@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="14" failures="0" errors="0" time="2.416">
+  <testsuite name="Basic testing with spacing 2" errors="0" failures="0" skipped="0" timestamp="2022-01-27T11:52:37" time="2.287" tests="14">
+    <testcase classname="Basic testing with spacing 2" name="returns 0 if never called" time="0.003">
+    </testcase>
+    <testcase classname="Basic testing with spacing 2" name="returns 1 if called once" time="0">
+    </testcase>
+    <testcase classname="Basic testing with spacing 2" name="returns 1 if called with overlapping" time="0">
+    </testcase>
+    <testcase classname="Basic testing with spacing 2" name="returns 2 if called with evidently non-overlapping" time="0.001">
+    </testcase>
+    <testcase classname="Basic testing with spacing 5" name="returns 0 if never called" time="0">
+    </testcase>
+    <testcase classname="Basic testing with spacing 5" name="returns 1 if called once" time="0">
+    </testcase>
+    <testcase classname="Basic testing with spacing 5" name="returns 1 if called with overlapping" time="0.001">
+    </testcase>
+    <testcase classname="Basic testing with spacing 5" name="returns 2 if called with evidently non-overlapping" time="0">
+    </testcase>
+    <testcase classname="Basic testing with spacing 5" name="New number that lands between two nearby clusters may belong to both of them, thus merging them into one" time="0.001">
+    </testcase>
+    <testcase classname="Basic testing with spacing 5" name="returns 5 if called with evidently non-overlapping" time="0">
+    </testcase>
+    <testcase classname="Basic testing with spacing 10" name="returns 0 if never called" time="0">
+    </testcase>
+    <testcase classname="Basic testing with spacing 10" name="returns 1 if called once" time="0">
+    </testcase>
+    <testcase classname="Basic testing with spacing 10" name="returns 1 if called with overlapping" time="0.001">
+    </testcase>
+    <testcase classname="Basic testing with spacing 10" name="returns 2 if called with evidently non-overlapping" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

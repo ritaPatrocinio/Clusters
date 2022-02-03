@@ -1,0 +1,33 @@
+{
+  "name": "spartez-task-js-linear-cluster",
+  "version": "1.0.2",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "pretest": "npm run lint || true",
+    "lint": "eslint src/**"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testResultsProcessor": "@slawcok/jest-junit"
+  },
+  "jest-junit": {
+    "noStackTrace": "true",
+    "outputName": "test-results.xml",
+    "classNameTemplate": "{classname}",
+    "titleTemplate": "{title}"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "jest": "^26.6.3",
+    "@slawcok/jest-junit": "12.0.0-nostack-2",
+    "ts-jest": "^26.5.1",
+    "typescript": "^4.1.5",
+    "ts-node": "^9.1.1"
+  }
+}
